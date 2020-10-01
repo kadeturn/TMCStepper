@@ -364,9 +364,9 @@
 #ifndef OUTPUT
     #define OUTPUT 0x01
 #endif
-#if !defined(MSBFIRST) && !(defined(ARDUINO_ARCH_SAM) || defined(ARDUINO_ARCH_SAMD))
-    #define MSBFIRST 1
-#endif
+// #if !defined(MSBFIRST) && !(defined(ARDUINO_ARCH_SAM) || defined(ARDUINO_ARCH_SAMD))
+    // #define MSBFIRST 1
+// #endif
 #ifndef SPI_MODE3
     #define SPI_MODE3 0
 #endif
